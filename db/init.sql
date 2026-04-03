@@ -1,7 +1,7 @@
 create table if not exists items(
     id BIGSERIAL primary key,
     name varchar(255) not null,
-    category varvhar(100) not null,
+    category varvhar(100) not null,1
     price numeric(10,2) not null,
     stock_quantity integer not null
 );
