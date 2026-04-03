@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Java / Maven / Spring Boot
+target/
+build/
+out/
+*.class
+
+# Docker / local volumes
+postgres_data/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
